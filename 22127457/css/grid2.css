@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: roboto;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    position: relative;
+}
+
+.logo, nav, header, aside, .body-area, footer {
+    display: block;
+    background-color: lightgray;
+    font-weight: bold;
+    font-size: 2rem;
+    box-sizing: border-box;
+}
+
+.logo {
+    padding: 1rem 2rem;
+    margin: 1rem 0;
+}
+
+nav {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+header {
+    text-align: center;
+    align-content: center;
+    min-height: 100px;
+    margin: 1rem 0;
+}
+
+main {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    gap: 1rem;
+}
+
+aside {
+    min-height: 390px;
+    text-align: center;
+    align-content: center;
+}
+
+.body-area {
+    min-height: 390px;
+    text-align: center;
+    align-content: center;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.return {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -3rem;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+a,
+a:hover,
+a:visited,
+a:active,
+a:focus {
+    text-decoration: none; 
+    color: inherit;
+}
+
+a:hover {
+    color: #FF6500;
+}
+
+.return-box:hover {
+    border-color: #FF6500;
+}
