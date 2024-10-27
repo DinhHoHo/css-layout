@@ -1,0 +1,48 @@
+.container{
+    display: grid;
+    background-color: #EEEEEE;
+    padding: 1rem 3rem;
+    width: 80%;
+    height: 90vh;
+    margin: 0 auto;
+    grid-template-rows: 10fr 20fr 15fr 40fr  5fr;
+    gap: 1rem;
+}
+
+.Logo, .Banner, .Intro, footer{
+    box-sizing: border-box;
+    background-color: lightgrey;
+    font-size: 1.8rem;
+}
+
+.Banner, .Intro, footer {
+    align-content: center;
+    text-align: center;
+}
+
+
+.Logo{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    align-content: center;
+    padding-left: 1rem;
+}
+
+.Banner{
+    font-size: 2.5rem;
+}
+
+.container-box{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box{
+    background-color: lightgrey;
+    align-content: center;
+    text-align: center;
+}
+
+
+
